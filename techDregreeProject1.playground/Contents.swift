@@ -38,9 +38,9 @@ let playerHeightKey = "height"
 let teamDragonsName = "Dragons"
 let teamSharksName = "Sharks"
 let teamRaptorsName = "Raptors"
-let dragonsPracticeTime = "March 17, 1pm"
-let sharksPracticeTime = "March 17, 3pm"
-let raptorsPracticeTime = "March 18, 1pm"
+let dragonsPracticeTime = "March 17, at 1pm"
+let sharksPracticeTime = "March 17, at 3pm"
+let raptorsPracticeTime = "March 18, at 1pm"
 let theLeague = [teamRaptors, teamSharks, teamDragons]
 let numberOfTeams = theLeague.count
 
@@ -118,8 +118,8 @@ func createPersonalizedLetters(for team: [[String: Any]], teamName: String, prac
             Dear \(guardians),
             
             Welcome to another year! We are happy to inform you that \(playerName)
-            has been placed on the \(teamName) team. Please make sure you are present
-            at the first practice on \(practiceTime).
+            has been placed on the \(teamName) team. Please make sure you are at
+            the first practice on \(practiceTime).
             
             See you soon!
             
