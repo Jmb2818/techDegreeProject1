@@ -86,7 +86,9 @@ func sortIntoEvenTeams(team: [[String: Any]]) {
         default:
             print("Counter is out of bounds")
         }
+        
         if counter == numberOfTeams {
+            // if counter equals number of team, reset the counter
             counter = 1
         } else {
             counter += 1
